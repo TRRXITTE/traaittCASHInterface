@@ -28,17 +28,17 @@ config.walletServiceConfigFormat = "json";
 config.walletServiceRpcPort = 8447;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://explorer.traaittcash.com/?hash=[[TX_HASH]]';
+config.blockExplorerUrl = 'https://traaittnetwork.com/tch/simple/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = 'us-east.traaittnode.com';
+config.remoteNodeDefaultHost = 'us-west.traaitt.com';
 
 
 // remote node list update url, set to null if you don't have one
 // for TRTL:
 // raw list: https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json
 // filtered: https://trtl.nodes.pub/api/getNodes
-config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/traaittPlatform/traaittCASH-nodes/master/traaittcash-nodes.json';
+config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/TRRXITTE/traaittCASHnetworknodes/master/traaittcash-nodes.json';
 
 // set to false if using raw/unfiltered node list
 config.remoteNodeListFiltered = false;
