@@ -56,7 +56,7 @@ app.setAppUserModelId(config.appId);
 log.transports.console.level = LOG_LEVEL;
 log.transports.file.level = LOG_LEVEL;
 log.transports.file.maxSize = 5 * 1024 * 1024;
-log.info(`Starting traaittPlatform Interface ${WALLETSHELL_VERSION}`);
+log.info(`Starting traaittCASH Interface ${WALLETSHELL_VERSION}`);
 if (IS_DEV || IS_DEBUG) log.warn(`Running in ${IS_DEV ? 'dev' : 'debug'} mode`);
 
 let trayIcon = path.join(__dirname, 'src/assets/tray.png');

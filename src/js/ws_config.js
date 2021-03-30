@@ -2,10 +2,10 @@ var config = {};
 
 // self explanatory, your application name, descriptions, etc
 config.appName = 'traaittCASH Interface';
-config.appDescription = 'WalletShell';
+config.appDescription = 'XT';
 config.appSlogan = 'traaitt digital asset software distribution!';
-config.appId = 'traaittcash.walletshell';
-config.appGitRepo = 'https://github.com/turtlecoin/turtle-wallet-electron';
+config.appId = 'traaittcash.interface';
+config.appGitRepo = 'https://github.com/TRRXITTE/traaittCASHInterface';
 
 // default port number for your daemon (e.g. TurtleCoind)
 config.daemonDefaultRpcPort = 14486;
@@ -14,9 +14,9 @@ config.daemonDefaultRpcPort = 14486;
 config.walletFileDefaultExt = 'cash';
 
 // change this to match your wallet service executable filename
-config.walletServiceBinaryFilename = 'traaittcash-service';
+config.walletServiceBinaryFilename = 'XTCASHservice';
 
-// version on the bundled service (turtle-service)
+// version on the bundled service (xtcash-service)
 config.walletServiceBinaryVersion = "v0.13.0";
 
 // config file format supported by wallet service, possible values:
@@ -28,26 +28,31 @@ config.walletServiceConfigFormat = "json";
 config.walletServiceRpcPort = 8447;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://traaittnetwork.com/tch/simple/?hash=[[TX_HASH]]#blockchain_transaction';
+config.blockExplorerUrl = 'https://network.traaittcash.com/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = 'us-west.traaitt.com';
+config.remoteNodeDefaultHost = 'us-east.trrxitte.com';
 
 
 // remote node list update url, set to null if you don't have one
 // for TRTL:
-// raw list: https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json
-// filtered: https://trtl.nodes.pub/api/getNodes
-config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/TRRXITTE/traaittCASHnetworknodes/master/traaittcash-nodes.json';
+// raw list: https://github.com/TRRXITTE/traaittCASHnetworkserver/blob/master/traaittcash.json
+// filtered: https://xtcash.network.trrxitte.com/api/getNodes
+config.remoteNodeListUpdateUrl = 'https://github.com/TRRXITTE/traaittCASHnetworkserver/blob/master/traaittcash.json';
 
 // set to false if using raw/unfiltered node list
 config.remoteNodeListFiltered = false;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  'us-east.traaittnode.com:14486',
-  'asia-east.traaittnode.com:14486',
-  'eu-west.traaittnode.com:14486',
+  'us-west.trrxitte.com:14486',
+  'us-east.trrxitte.com:14486',
+  'europe-west.trrxitte.com:14486',
+  'southamerica-east.trrxitte.com:14486',
+  'asia-southeast.trrxitte.com:14486',
+  'europe.trrxitte.com:14486',
+  'asia-northeast.trrxitte.com:14486',
+  'asia-east.trrxitte.com:14486',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
@@ -55,7 +60,7 @@ config.remoteNodeSslSupported = false;
 // your currency name
 config.assetName = 'traaittCASH';
 // your currency ticker
-config.assetTicker = 'TCH';
+config.assetTicker = 'XTCASH';
 // your currency address prefix, for address validation
 config.addressPrefix = 'cash';
 // standard wallet address length, for address validation
@@ -82,7 +87,7 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
   {
-    name: 'TCH Donation',
+    name: 'XTCASH Donation',
     address: 'cashKdCEq5U7W2QDS5ffMETf1smoKLBm3C1GMYvPdEVUU9LKr1uDFrLNPkmfKgzcTcB4ASsypziCeVQ5iqkzC7fZ1pDDLSxgZF',
     paymentId: '',
   }

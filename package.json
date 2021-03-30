@@ -1,7 +1,7 @@
 {
   "name": "traaittcashwalletshell",
-  "productName": "traaittCASH Interface Wallet",
-  "description": "traaittPlatform GUI Wallet",
+  "productName": "traaittCASH Interface",
+  "description": "traaittCASH GUI Wallet",
   "version": "4.4.7",
   "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
   "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
@@ -15,7 +15,7 @@
     "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/traaittcash-service"
   },
   "keywords": [],
-  "author": "traaittCASH, Rixombea, Macroshock, TurtleCoin Developers",
+  "author": "TRRXITTE Int., incorporated, Rixombea, Macroshock, TRTL Team",
   "license": "ISC",
   "devDependencies": {
     "devtron": "^1.4.0",
