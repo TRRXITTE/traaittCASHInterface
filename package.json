@@ -10,9 +10,9 @@
     "start": "electron .",
     "debug": "electron . debug",
     "dev": "electron . dev",
-    "dist-win": "./node_modules/.bin/electron-builder --x64 --win -c.extraResources=./bin/win/traaittcash-service.exe",
-    "dist-lin": "./node_modules/.bin/electron-builder --x64 --linux -c.extraResources=./bin/lin/traaittcash-service",
-    "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/traaittcash-service"
+    "dist-win": "./node_modules/.bin/electron-builder --x64 --win -c.extraResources=./bin/win/XTCASHservice.exe",
+    "dist-lin": "./node_modules/.bin/electron-builder --x64 --linux -c.extraResources=./bin/lin/XTCASHservice",
+    "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/XTCASHservice"
   },
   "keywords": [],
   "author": "TRRXITTE Int., incorporated, Rixombea, Macroshock, TRTL Team",
