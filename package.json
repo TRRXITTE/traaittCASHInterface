@@ -15,7 +15,7 @@
     "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/XTCASHservice"
   },
   "keywords": [],
-  "author": "TRRXITTE Int., incorporated, Rixombea, Macroshock, TRTL Team",
+  "author": "TRRXITTE Int., incorporated",
   "license": "ISC",
   "devDependencies": {
     "devtron": "^1.4.0",
