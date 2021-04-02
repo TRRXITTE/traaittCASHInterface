@@ -1,6 +1,6 @@
 ## traaittCASH Interface 
 
-![traaittCASH Interface](https://github.com/TRRXITTE/traaittCASHInterface/blob/master/docs/cashwallet.png "traaittCASH Interface")
+![traaittCASH Interface](https://github.com/TRRXITTE/traaittCASHInterface/blob/master/docs/XTCASH.png "traaittCASH Interface XT")
 
 ### Features:
 
@@ -28,7 +28,7 @@ This wallet contains the basic functions required to manage your TurtleCoin asse
   * Allow to optionally create password protected address book.
 * Misc:
   * Option to use system tray (on closing/minimizing wallet)
-  * Provides list of public nodes, fetch/updated daily from [turtlecoin-nodes-json](https://github.com/turtlecoin/turtlecoin-nodes-json) repo.
+  * Provides list of public nodes, fetch/updated daily from [traaittCASH.json](https://github.com/TRRXITTE/traaittCASHnetworkserver/blob/master/traaittcash.json) repo.
   * Allow to add custom node address.
   * Theme: Dark & Light Mode
   * [Keyboard shortcuts](docs/shortcut.md)
@@ -37,7 +37,7 @@ This wallet contains the basic functions required to manage your TurtleCoin asse
 
 #### Windows:
 1. Download the latest installer here: https://github.com/TRRXITTE/traaittCASHInterface/releases/latest
-2. Run the installer (`walletshell-<version>-win-setup.exe`) and follow the installation wizard.
+2. Run the installer (`traaittCASHInterface-<version>-win-setup.exe`) and follow the installation wizard.
 3. Launch traaittCASH Interface via start menu or desktop shortcut.
 
 #### GNU/Linux (AppImage):
