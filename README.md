@@ -78,17 +78,17 @@ $ cp ./src/assets/icon.* ./build/
 
 # build GNU/Linux package
 $ mkdir -p ./bin/lin
-$ cp /path/to/linux-version-of/tchservice ./bin/lin/
+$ cp /path/to/linux-version-of/XTCASHservice ./bin/lin/
 $ npm run dist-lin
 
 # build Windows package (you need to have wine 2.0+ installed)
 $ mkdir -p ./bin/win
-$ cp /path/to/win-version-of/tchservice.exe ./bin/win/
+$ cp /path/to/win-version-of/XTCASHservice.exe ./bin/win/
 $ npm run dist-win
 
 # build OSX package
 $ mkdir -p ./bin/osx
-$ cp /path/to/osx-version-of/tchservice ./bin/osx/
+$ cp /path/to/osx-version-of/XTCASHservice ./bin/osx/
 $ npm run dist-mac
 ```
 
