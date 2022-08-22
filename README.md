@@ -1,6 +1,8 @@
 ## traaittCASH Interface 
 
 ![traaittCASH Interface](https://github.com/TRRXITTE/traaittCASHInterface/blob/master/docs/XTCASH.png "traaittCASH Interface XT")
+![Download Count](https://img.shields.io/github/downloads/trrxitte/traaittcashinterface/total.svg)
+![Version](https://img.shields.io/github/v/release/trrxitte/traaittcashinterface)
 
 ### Features:
 
