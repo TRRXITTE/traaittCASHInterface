@@ -3,7 +3,7 @@ var config = {};
 // self explanatory, your application name, descriptions, etc
 config.appName = 'traaittCASH Interface';
 config.appDescription = 'XT';
-config.appSlogan = 'traaitt digital asset software distribution!';
+config.appSlogan = 'TRRXITTE International digital asset software distribution!';
 config.appId = 'traaittcash.interface';
 config.appGitRepo = 'https://github.com/TRRXITTE/traaittCASHInterface';
 

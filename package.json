@@ -1,8 +1,8 @@
 {
-  "name": "traaittcashwalletshell",
+  "name": "traaittcash-interface",
   "productName": "traaittCASH Interface",
-  "description": "traaittCASH GUI Wallet",
-  "version": "4.4.7",
+  "description": "traaittCASH Interface Wallet",
+  "version": "4.4.51",
   "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
   "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
   "main": "main.js",
@@ -15,7 +15,7 @@
     "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/XTCASHservice"
   },
   "keywords": [],
-  "author": "TRRXITTE Int., incorporated",
+  "author": "TRRXITTE Int., incorporate",
   "license": "ISC",
   "devDependencies": {
     "devtron": "^1.4.0",
@@ -37,8 +37,8 @@
     "request-promise-native": "^1.0.7"
   },
   "build": {
-    "appId": "traaittcash.walletshell",
-    "copyright": "Copyright (c) 2020 traaittCASH, Rixombea, Macroshock, TurtleCoin Developers",
+    "appId": "traaittcash-interface",
+    "copyright": "Copyright (c) 2020-TODAY TRRXITTE Int., incorporate",
     "directories": {
       "output": "dist",
       "buildResources": "build"
