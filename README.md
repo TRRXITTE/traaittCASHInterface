@@ -6,7 +6,7 @@
 
 ### Features:
 
-This wallet contains the basic functions required to manage your TurtleCoin assets:
+This wallet contains the basic functions required to manage your XTCASH assets:
 
 * Wallet creation:
   * Create new wallet.
