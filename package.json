@@ -1,8 +1,8 @@
 {
-  "name": "traaittcash-interface",
-  "productName": "traaittCASH Interface",
+  "name": "traaittCASHInterface",
+  "productName": "traaittCASH Interface XTCASH wallet",
   "description": "traaittCASH Interface Wallet",
-  "version": "4.4.51",
+  "version": "4.5.1",
   "homepage": "https://trrxitte.com/",
   "repository": "https://github.com/trrxitte/traaittcashinterface",
   "main": "main.js",
@@ -37,7 +37,7 @@
     "request-promise-native": "^1.0.7"
   },
   "build": {
-    "appId": "traaittcash-interface",
+    "appId": "traaittcash.interface",
     "copyright": "Copyright (c) 2020-TODAY TRRXITTE Int., incorporate",
     "directories": {
       "output": "dist",

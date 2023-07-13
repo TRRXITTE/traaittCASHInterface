@@ -2,9 +2,9 @@ var config = {};
 
 // self explanatory, your application name, descriptions, etc
 config.appName = 'traaittCASH Interface';
-config.appDescription = 'XT';
+config.appDescription = 'XTCASH wallet';
 config.appSlogan = 'TRRXITTE International digital asset software distribution!';
-config.appId = 'traaittcash.interface';
+config.appId = 'traaittCASHInterfaceXT';
 config.appGitRepo = 'https://github.com/TRRXITTE/traaittCASHInterface';
 
 // default port number for your daemon (e.g. TurtleCoind)
