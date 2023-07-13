@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'cash';
 config.walletServiceBinaryFilename = 'XTCASHservice';
 
 // version on the bundled service (xtcash-service)
-config.walletServiceBinaryVersion = "v0.13.0";
+config.walletServiceBinaryVersion = "v4.5.1";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -25,10 +25,10 @@ config.walletServiceBinaryVersion = "v0.13.0";
 config.walletServiceConfigFormat = "json";
 
 // default port number for your wallet service (e.g. turtle-service)
-config.walletServiceRpcPort = 8447;
+config.walletServiceRpcPort = 8440;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
-config.blockExplorerUrl = 'https://network.traaittcash.com/?hash=[[TX_HASH]]#blockchain_transaction';
+config.blockExplorerUrl = 'https://interface.traaittcash.com/transaction.html?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
 config.remoteNodeDefaultHost = 'us-east.trrxitte.com';
@@ -37,7 +37,7 @@ config.remoteNodeDefaultHost = 'us-east.trrxitte.com';
 // remote node list update url, set to null if you don't have one
 // for TRTL:
 // raw list: https://github.com/TRRXITTE/traaittCASHnetworkserver/blob/master/traaittcash.json
-// filtered: https://xtcash.network.trrxitte.com/api/getNodes
+// filtered: https://cacheapi.traaittcash.com/api/getNodes
 config.remoteNodeListUpdateUrl = 'https://github.com/TRRXITTE/traaittCASHnetworkserver/blob/master/traaittcash.json';
 
 // set to false if using raw/unfiltered node list
@@ -45,14 +45,8 @@ config.remoteNodeListFiltered = false;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  'us-west.trrxitte.com:14486',
   'us-east.trrxitte.com:14486',
-  'europe-west.trrxitte.com:14486',
-  'southamerica-east.trrxitte.com:14486',
-  'asia-southeast.trrxitte.com:14486',
   'europe.trrxitte.com:14486',
-  'asia-northeast.trrxitte.com:14486',
-  'asia-east.trrxitte.com:14486',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
@@ -69,11 +63,11 @@ config.addressLength = 98;
 config.integratedAddressLength = config.addressLength + ((64 * 11) / 8);
 
 // minimum fee for sending transaction
-config.minimumFee = 0.0000001;
+config.minimumFee = 0.00001;
 // minimum amount for sending transaction
 config.mininumSend = 0.0000001;
 // default mixin/anonimity for transaction
-config.defaultMixin = 3;
+config.defaultMixin = 18;
 // to represent human readable value
 config.decimalPlaces = 8;
 // to convert from atomic unit
@@ -87,8 +81,8 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 // initial/sample entries to fill new address book
 config.addressBookSampleEntries = [
   {
-    name: 'XTCASH Donation',
-    address: 'cashKdCEq5U7W2QDS5ffMETf1smoKLBm3C1GMYvPdEVUU9LKr1uDFrLNPkmfKgzcTcB4ASsypziCeVQ5iqkzC7fZ1pDDLSxgZF',
+    name: 'TRRXITTE International',
+    address: 'cashQmjcTGzDqRSufP74GwWTLt11E3saaeRg3LVt5AgEGAiYhpS1yTZA1ti7wVkk7vaQgvKifLvCx4SxwDqfR1EZAYL7yr4WD3',
     paymentId: '',
   }
 ];
