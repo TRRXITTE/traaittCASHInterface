@@ -24,7 +24,7 @@ config.walletServiceBinaryVersion = "v4.5.1";
 // json --> for turtle service (or its forks) version >= v0.8.4
 config.walletServiceConfigFormat = "json";
 
-// default port number for your wallet service (e.g. turtle-service)
+// default port number for your wallet service (e.g. XTCASHservice)
 config.walletServiceRpcPort = 8440;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
