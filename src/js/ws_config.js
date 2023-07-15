@@ -38,7 +38,7 @@ config.remoteNodeDefaultHost = 'us-east.trrxitte.com';
 // for TRTL:
 // raw list: https://github.com/TRRXITTE/traaittCASHnetworkserver/blob/master/traaittcash.json
 // filtered: https://cacheapi.traaittcash.com/api/getNodes
-config.remoteNodeListUpdateUrl = 'https://github.com/TRRXITTE/traaittCASHnetworkserver/blob/master/traaittcash.json';
+config.remoteNodeListUpdateUrl = 'https://raw.githubusercontent.com/TRRXITTE/traaittCASHnetworkserver/master/traaittcash.json';
 
 // set to false if using raw/unfiltered node list
 config.remoteNodeListFiltered = false;
@@ -46,6 +46,12 @@ config.remoteNodeListFiltered = false;
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
   'us-east.trrxitte.com:14486',
+  'us-west.trrxitte.com:14486',
+  'southamerica-east.trrxitte.com:14486',
+  'europe-west.trrxitte.com:14486',
+  'asia-southeast.trrxitte.com:14486',
+  'asia-northeast.trrxitte.com:14486',
+  'asia-east.trrxitte.com:14486',
   'europe.trrxitte.com:14486',
 ];
 config.remoteNodeCacheSupported = false;
