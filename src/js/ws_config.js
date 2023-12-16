@@ -8,7 +8,7 @@ config.appId = 'traaittCASHInterfaceXT';
 config.appGitRepo = 'https://github.com/TRRXITTE/traaittCASHInterface';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 14486;
+config.daemonDefaultRpcPort = 14423;
 
 // wallet file created by this app will have this extension
 config.walletFileDefaultExt = 'cash';
@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'cash';
 config.walletServiceBinaryFilename = 'XTCASHservice';
 
 // version on the bundled service (xtcash-service)
-config.walletServiceBinaryVersion = "v4.5.1";
+config.walletServiceBinaryVersion = "0.10.44";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -45,14 +45,14 @@ config.remoteNodeListFiltered = false;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  'us-east.trrxitte.com:14486',
-  'us-west.trrxitte.com:14486',
-  'southamerica-east.trrxitte.com:14486',
-  'europe-west.trrxitte.com:14486',
-  'asia-southeast.trrxitte.com:14486',
-  'asia-northeast.trrxitte.com:14486',
-  'asia-east.trrxitte.com:14486',
-  'europe.trrxitte.com:14486',
+  'us-east.trrxitte.com:14423',
+  'us-west.trrxitte.com:14423',
+  'southamerica-east.trrxitte.com:14423',
+  'europe-west.trrxitte.com:14423',
+  'asia-southeast.trrxitte.com:14423',
+  'asia-northeast.trrxitte.com:14423',
+  'asia-east.trrxitte.com:14423',
+  'europe.trrxitte.com:14423',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
@@ -69,13 +69,13 @@ config.addressLength = 98;
 config.integratedAddressLength = config.addressLength + ((64 * 11) / 8);
 
 // minimum fee for sending transaction
-config.minimumFee = 0.00001;
+config.minimumFee = 1;
 // minimum amount for sending transaction
-config.mininumSend = 0.0000001;
+config.mininumSend = 0.01;
 // default mixin/anonimity for transaction
-config.defaultMixin = 18;
+config.defaultMixin = 3;
 // to represent human readable value
-config.decimalPlaces = 8;
+config.decimalPlaces = 2;
 // to convert from atomic unit
 config.decimalDivisor = 10 ** config.decimalPlaces;
 
